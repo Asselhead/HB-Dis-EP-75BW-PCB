@@ -5,7 +5,9 @@ Mögliche Bezugsquellen für das 7,5" Display (Lieferfähigkeit variiert):
 
 ***Auflösung 800x480 Pixel:***
 
-Deutschland - leider mit HAT: [Amazon](https://www.amazon.de/HAT-Resolution-Electronic-Controller-Communicating/dp/B075R4QY3L?ref_=ast_sto_dp)
+Deutschland:
+
+Leider mit HAT: [Amazon](https://www.amazon.de/HAT-Resolution-Electronic-Controller-Communicating/dp/B075R4QY3L?ref_=ast_sto_dp)
 
 Ohne HAT momentan nicht lieferbar, vielleicht ab und zu mal hier reinschauen: [Amazon](https://www.amazon.de/stores/page/747C39DA-B638-4D94-B7E0-0A89793C2956?ingress=2&visitId=0b9c7f15-5841-408f-8cba-5e612e95831c&ref_=ast_bln&productGridPageIndex=2)
 
