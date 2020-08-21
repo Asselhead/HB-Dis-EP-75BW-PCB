@@ -1,7 +1,18 @@
 # HB-Dis-EP-75BW-PCB
 Homematic Homebrew Leiterplatte für 7,5" (und andere) ePaper Displays
 
-Mögliche Bezugsquellen für das 7,5" Display (Lieferfähigkeit variiert):
+## Schaltung und Stückliste
+[Schaltung](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Schematic_HB-Dis-EP-75BW-PCB.pdf)
+
+## Bestückungsunterlagen und Stückliste 
+
+[Bestückungsunterlagen](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Assembly_HB-Dis-EP-75BW-PCB.pdf)
+
+## Reichelt Warenkorb
+
+[Warenkorb](https://www.reichelt.de/my/1742358)
+
+## Mögliche Bezugsquellen für das 7,5" Display (Lieferfähigkeit variiert):
 
 ***Auflösung 800x480 Pixel:***
 
