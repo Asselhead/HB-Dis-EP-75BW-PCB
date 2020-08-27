@@ -14,6 +14,8 @@ Softwareseitig sind jedoch aktuell nur 10 Taster vorgesehen (Siehe Link zum 4.2"
 
 Aus Platzgründen wurden die Beschriftungen auf die BOT Seite der Leiterplatte gelegt.
 
+Die Leiterplatte hat die Maße 50x50mm, der Durchmesser der Befestigungslöcher beträgt 3,2mm.
+
 Zum Schutz vor einem "Babbling Idiot" wurde auch hier (u.a.) ein Reset Baustein vorgesehen, dessen Pinbelegung stimmt jedoch nicht mit dem in der 4.2" Schaltung überein.
 Eine mögliche Type wäre von ON Semiconductor der NCP803SN232T1G mit einer Reset Schwelle von 2,32V.
 
