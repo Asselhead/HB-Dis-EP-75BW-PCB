@@ -10,6 +10,10 @@ Die Schaltung orientiert sich an der Schaltung für das 4,2" Display: https://gi
 12 GPIOs wurden an den Rand der Leiterplatte gelegt, damit man hier z.B. bis zu 12 Taster (auch Touch-Taster) anschließen kann.
 Softwareseitig sind jedoch aktuell nur 10 Taster vorgesehen (Siehe Link zum 4.2" Projekt).
 
+![BOT.png](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/BOT.png)
+
+Aus Platzgründen wurden die Beschriftungen auf die BOT Seite der Leiterplatte gelegt.
+
 Zum Schutz vor einem "Babbling Idiot" wurde auch hier (u.a.) ein Reset Baustein vorgesehen, dessen Pinbelegung stimmt jedoch nicht mit dem in der 4.2" Schaltung überein.
 Eine mögliche Type wäre von ON Semiconductor der NCP803SN232T1G mit einer Reset Schwelle von 2,32V.
 
@@ -17,6 +21,10 @@ Alle weiteren benötigten Bauteile sind (auch mit Link) im Schaltplan hinterlegt
 
 Die Bauteilbezeichnungen in der Schaltung stimmen nicht immer mit den Angaben in der Stückliste überein, da ich auf eine bestehende Bauteilbibliothek zurückgreife.
 Maßgeblich sind aber die Angaben in der Stückliste.
+
+### Lötbrücke
+
+Die Lötbrücke sollte in der Regel nach 4-Wire geschlossen werden!
 
 ## Thread im Homematic Forum
 
