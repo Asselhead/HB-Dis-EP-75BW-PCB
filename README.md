@@ -1,6 +1,26 @@
 # HB-Dis-EP-75BW-PCB
 Homematic Homebrew Leiterplatte für 7,5" (und andere) ePaper Displays
 
+Es handelt sich hierbei um eine Leiterplatte, die den direkten Anschluss eines 7,5" ePaper Display ermöglicht.
+Die sonst üblichen HAT oder Driver Leiterplatten können entfallen.
+Die Schaltung orientiert sich an der Schaltung für das 4,2" Display: https://github.com/jp112sdl/HB-Dis-EP-42BW
+
+12 GPIOs wurden an den Rand der Leiterplatte gelegt, damit man hier z.B. bis zu 12 Taster (auch Touch-Taster) anschließen kann.
+Softwareseitig sind jedoch aktuell nur 10 Taster vorgesehen (Siehe Link zum 4.2" Projekt).
+
+Zum Schutz vor einem "Babbling Idiot" wurde auch hier (u.a.) ein Reset Baustein vorgesehen, dessen Pinbelegung stimmt jedoch nicht mit dem in der 4.2" Schaltung überein.
+Eine mögliche Type wäre von ON Semiconductor der NCP803SN232T1G mit einer Reset Schwelle von 2,32V.
+
+Alle weiteren benötigten Bauteile sind (auch mit Link) im Schaltplan hinterlegt. Auch der Link zum Reichelt Warenkorb kann im PDF angeklickt werden.
+
+Die Bauteilbezeichnungen in der Schaltung stimmen nicht immer mit den Angaben in der Stückliste überein, da ich auf eine bestehende Bauteilbibliothek zurückgreife.
+Maßgeblich sind aber die Angaben in der Stückliste.
+
+## Sketch
+
+Als Sketch sollte zunächst der [4.2" Sketch](https://github.com/jp112sdl/HB-Dis-EP-42BW/blob/master/HB-Dis-EP-42BW.ino) verwendet werden.
+Alle Signale zum Display, zum CC1101 Modul und den LEDs sind von der 4.2" Schaltung übernommen worden. Bei den Tastern stimmt das auch weitgehend überein, die Unterschiede (12 statt 10 Button) sollten noch einmal in der Schaltung geprüft und im Sketch nach eigenen Wünschen angepasst werden.
+
 ## Schaltung und Stückliste
 [Schaltung](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Schematic_HB-Dis-EP-75BW-PCB.pdf)
 
