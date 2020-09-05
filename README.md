@@ -56,9 +56,9 @@ Auch die Bootloader Einstellungen sollten vom 4.2" Projekt übernommen werden.
 
 Deutschland:
 
-Leider mit HAT: [Amazon](https://www.amazon.de/HAT-Resolution-Electronic-Controller-Communicating/dp/B075R4QY3L?ref_=ast_sto_dp)
-
-Ohne HAT momentan nicht lieferbar, vielleicht ab und zu mal hier reinschauen: [Amazon](https://www.amazon.de/stores/page/747C39DA-B638-4D94-B7E0-0A89793C2956?ingress=2&visitId=0b9c7f15-5841-408f-8cba-5e612e95831c&ref_=ast_bln&productGridPageIndex=2)
+[Amazon](https://www.amazon.de/Waveshare-Resolution-Electronic-Controller-Communicating/dp/B075R69T93?ref_=ast_sto_dp)
+ 
+Version mit HAT: [Amazon](https://www.amazon.de/HAT-Resolution-Electronic-Controller-Communicating/dp/B075R4QY3L?ref_=ast_sto_dp)
 
 Ebenfalls mit HAT: [Reichelt](https://www.reichelt.de/entwicklerboards-display-epaper-7-5-schwarz-weiss-debo-epa-7-5-p253956.html?&nbc=1)
 
