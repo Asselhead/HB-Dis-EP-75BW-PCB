@@ -19,6 +19,8 @@ Die Leiterplatte hat die Maße 50x50mm, der Durchmesser der Befestigungslöcher 
 Zum Schutz vor einem "Babbling Idiot" wurde auch hier (u.a.) ein Reset Baustein vorgesehen, dessen Pinbelegung stimmt jedoch nicht mit dem in der 4.2" Schaltung überein.
 Eine mögliche Type wäre von ON Semiconductor der NCP803SN232T1G mit einer Reset Schwelle von 2,32V.
 
+Wer z.B. einen LiPo Akku als Spannungsquelle einsetzen möchte, sollte eher einen Reset Bausteine mit einer Schwelle von 2,63V oder 2,93V einsetzen.
+
 Alle weiteren benötigten Bauteile sind (auch mit Link) im Schaltplan hinterlegt. Auch der Link zum Reichelt Warenkorb kann im PDF angeklickt werden.
 
 Die Bauteilbezeichnungen in der Schaltung stimmen nicht immer mit den Angaben in der Stückliste überein, da ich auf eine bestehende Bauteilbibliothek zurückgreife.
@@ -26,7 +28,9 @@ Maßgeblich sind aber die Angaben in der Stückliste.
 
 ### Lötbrücke
 
-Die Lötbrücke sollte in der Regel nach 4-Wire geschlossen werden!
+~~Die Lötbrücke sollte in der Regel nach 4-Wire geschlossen werden!~~
+Die Lötbrücke ist in Version 1.0 der Leiterplatte bereits mit einer kleinen Leiterbahn nach 4-Wire geschlossen.
+Wer hier 3-Wire verwenden möchte, muss die Leiterbahn aufkratzen und die Lötbrücke entsprechend schließen.
 
 ## Thread im Homematic Forum
 
@@ -39,8 +43,16 @@ Alle Signale zum Display, zum CC1101 Modul und den LEDs sind von der 4.2" Schalt
 
 Auch die Bootloader Einstellungen sollten vom 4.2" Projekt übernommen werden.
 
+## Gerber Daten
+Wer die Leiterplatte z.B. bei JLCPCB in Auftrag geben möchte, kann sich hier die Gerberdaten herunterladen:
+[Gerber](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Gerber/ePaperV1.zip)
+
+Es handelt sich um eine 4-Lagen Leiterplatte. 
+
 ## Schaltung und Stückliste
 [Schaltung](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Schematic_HB-Dis-EP-75BW-PCB.pdf)
+
+**Achtung!** In den Unterlagen wird R14 noch als 0603 Widerstand mit 22 Ohm angegeben. Dieser wurde ab Leiterplatte Version 1.0 auf die Bauform 0805 geändert. Die Reichelt Stückliste wurde angepasst, die Bestückungsunterlagen und die Schaltung aber noch nicht. Bitte beachten!
 
 ## Bestückungsunterlagen und Stückliste 
 
