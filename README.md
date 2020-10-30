@@ -62,6 +62,10 @@ Es handelt sich um eine 4-Lagen Leiterplatte.
 
 [Warenkorb](https://www.reichelt.de/my/1742358)
 
+## Lizenz
+
+![by-nc-sa.eu.png](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/by-nc-sa.eu.png)
+
 ## Mögliche Bezugsquellen für das 7,5" Display (Lieferfähigkeit variiert):
 
 ***Auflösung 800x480 Pixel:***
