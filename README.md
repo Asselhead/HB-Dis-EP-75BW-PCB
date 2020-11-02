@@ -49,6 +49,10 @@ Wer die Leiterplatte z.B. bei JLCPCB in Auftrag geben möchte, kann sich hier di
 
 Es handelt sich um eine 4-Lagen Leiterplatte. 
 
+## Gefällt Dir die Leiterplatte? Dann freue ich mich über einen Kaffee:
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L52JYN0)
+
 ## Schaltung und Stückliste
 [Schaltung](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Schematic_HB-Dis-EP-75BW-PCB.pdf)
 
