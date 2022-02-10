@@ -49,6 +49,50 @@ Wer die Leiterplatte z.B. bei JLCPCB in Auftrag geben möchte, kann sich hier di
 
 Es handelt sich um eine 4-Lagen Leiterplatte. 
 
+## Pick&Place + BOM Daten für die Bestellung einer (Teil-) Bestückten Leiterplatte
+JLCPCB bietet auch die Möglichkeit Leiterplatten bestücken zu lassen.
+Nicht immer sind alle Bauteile verfügbar und für "Extended" Parts wird eine extra Gebühr fällig.
+Wie so eine Bestellung abläuft kann man sich hier anschauen:
+[Anleitung](https://github.com/Asselhead/Bestellanleitung-JLCPCB-SMT-Service)
+
+Wer möglichst wenig selber löten möchte, sollte bei der Bestellung folgende BOM (Bill of Material) verwenden:
+
+[BOM inkl. MCU, Taster, Drossel, Resonator](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Gerber/JLCSMT_BOM_HB-Dis-EP-75-PCB_FULL.xlsx)
+
+Wer Drossel, MCU, Resonator und Taster selber löten kann, spart einiges an Geld, denn folgende BOM beinhaltet nur Basic Parts (ausser der Display Buchse):
+
+[Basic BOM](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Gerber/JLCSMT_BOM_HB-Dis-EP-75-PCB_Basic_Disp_Conn.xlsx)
+
+Wichtig! Die Basic BOM enthält für R5 anstelle eines 0,47 Ohm Widerstand einen 1 Ohm Widerstand.
+Falls es damit nicht funktioniert muss ein weiterer 1 Ohm Widerstand auf R5 Huckepack gelötet werden (ergibt 0,5 Ohm).
+Wichtig! Der Spannungsregler IC5 darf am Eingang mit maximal 6V versorgt werden - er weicht von dem in der Schaltung bzw. Reichelt BOM ab.
+
+So sieht das bestückt aus:
+
+![PartsPlacementBasic.png](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Gerber/PartsPlacementBasic.png)
+
+Damit die Bauteile an der korrekten Stelle platziert werden, benötigt man noch folgende Pick&Place (CPL) Datei:
+
+[Pick&Place](https://github.com/Asselhead/HB-Dis-EP-75BW-PCB/blob/master/Gerber/Pick_Place_HB-Dis_EP-75BW-PCB.xlsx)
+
+Bei der Bestellung bei JLCPCB folge Reihenfolge einhalten:
+
+1. ZIP Datei mit Gerberdaten hochladen
+2. Leiterplattendicke wählen (habe selbst 1mm genommen - ist Minimum)
+3. Layer Stackup im Dropdown Menü auswählen (L1=GTL, L2=G1, L3=G2, L4=GBL)
+4. STM Assembly anwählen -> Top Side 5 Stück (kostet fast das selbe wie 2 Stück) -> Confirm
+5. Add BOM File -> z.B. JLCSMT_BOM_HB-Dis-EP-75-PCB_Basic_Disp_Conn.xlsx hochladen
+6. Add CPL File -> Pick_Place_HB-Dis_EP-75BW-PCB.xlsx hochladen -> Next
+7. Bauteile noch einmal checken und ggf. Bauteile abwählen, die man nicht bestückten lassen möchte -> Next
+8. Sichtkontrolle der Bauteile auf der Leiterplatte und ab in den Warenkorb
+9. Als Versandmethode empfehle ich EuroPacket - im Bezahlvorgang daran denken einen der Coupons zu nutzen (7,87€ Discount)
+10. Auf diese Weise bezahlt man aktuell (Stand 10.02.2022) rund 23€ für 5 bestückte Leiterplatten (ohne MCU usw. - siehe oben)
+
+Zur Info: Ich selbst habe mit der BOM und Pick&Place Datei noch keine bestückten Display-Leiterplatten bestellt. Ich stelle die Daten hier nach bestem Wissen und Gewissen zur Verfügung, kann aber keine Haftung übernehmen, falls JLCPCB etwas falsches bestückt.
+
+Danke auch an Marc (Rundll32) der mir etwas Arbeit bei der BOM abgenommen hat!
+
+
 ## Gefällt Dir die Leiterplatte? Dann freue ich mich über einen Kaffee:
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L52JYN0)
